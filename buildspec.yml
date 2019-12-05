@@ -22,7 +22,7 @@ phases:
     runtime-versions:
         java : corretto8
       # name: version
-    #commands:
+    commands:
        - echo installing openjdk
       # - command
   #pre_build:
