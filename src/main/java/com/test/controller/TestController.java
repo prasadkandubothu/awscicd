@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
 	@RequestMapping("/test")
-	public String getDetails() {
+	public Sting getDetails() {
 		return "AWS CI CD is working...:)";
 	}
 }
